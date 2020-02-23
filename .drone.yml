@@ -1,0 +1,9 @@
+kind: pipeline
+type: docker
+name: staging
+
+steps:
+  - name: restore-cache123
+    image: alpine
+    commands:
+      - echo yayy
